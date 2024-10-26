@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <meta name="description" content="Sample Start File">
+    <meta name="author" content="Eilish Matteson">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&display=swap" rel="stylesheet">
+    <link href="css/styles.min.css" rel="stylesheet">
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="manifest" href="site.webmanifest">
+</head>
+
+<body>
+   <div id="headerWrapper">
+      <header>
+        <img src="images/logo1x.png" alt="logo" width="50" height="50" srcset="images/logo1x.png 1x, images/logox2.png 2x, images/logox3.png 3x">
+          <span>Mini Auto Dealer</span>
+          <a href="tel:5555555555">555-5555</a>
+      </header>
+   </div><!-- end header wrapper -->
+  
+   <div id="navWrapper">
+    <nav id="theNav">
+        <button id="theButton"></button>
+        <ul>
+            <li><a href="#">Clients</a></li>
+            <li><a href="#">Services</a></li>
+            <li class="active"><a href="#">Best Practices</a></li>
+            <li><a href="#">Our Team</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+</div> <!-- end nav wrapper -->
+
+
+<div id="mainWrapper">
+    <main>
+        <div class="miniHero">
+            <img src="images/mini.webp" width="1920" height="1080" alt="mini cooper">
+            <p> Welcome!</p>
+        </div>
+
+        <h1>About</h1>
+        <p> At Mini Auto Dealer, we redefine the road experience with the iconic Mini Cooper. Whether you're looking for speed, style, or sustainability, our innovative collection has something for every driver.
+
+            Explore our lineup of classic models, including the sporty Mini Cooper S, the versatile Countryman, and the fully-electric Mini Cooper SE. With bold colors, compact agility, and cutting-edge tech, your dream Mini is just around the corner.</p>
+        <div class="cards">
+            <section class="bounce">
+                <img src="time.svg" alt="time">
+                <h2>Hours</h2>
+                <p>Monday - Friday: 9:00 AM - 7:00 PM <br>
+                    Saturday: 10:00 AM - 5:00 PM <br>
+                    Sunday: Closed <br>
+                    
+                    Our knowledgeable team is here throughout the week to help with everything from test drives to service appointments. Feel free to stop by or schedule an appointment at your convenience!</p>
+                <button>Learn More</button>
+            </section>
+            <section class="spin">
+                <img src="camera.svg" alt="camera">
+                <h2>New Products</h2>
+                <p>Explore the latest arrivals! From the newest MINI Countryman to the classic MINI Cooper Hardtop, our showroom is fully stocked with fresh models and new features for you to discover. This season, check out our limited-edition models, new color options, and exclusive customizations only available here. Don’t miss the latest in MINI tech and design—book a test drive to experience it firsthand!</p>
+                <button>Learn More</button>
+            </section>
+            <section class="pulse">
+                <img src="info.svg" alt="info">
+                <h2>Help</h2>
+                <p>Need assistance? We’re here to make every step of your MINI journey easy and enjoyable. If you have questions about our inventory, financing options, or service, just reach out. Our support team is available via phone, email, or in person. Whether you're buying, leasing, or servicing, we are committed to providing you with the best possible experience. Let us know how we can help!</p>
+                <button>Learn More</button>
+                </section>
+                <section class="bounce">
+                    <img src="time.svg" alt="time">
+                    <h2>Hours</h2>
+                    <p>Monday - Friday: 9:00 AM - 7:00 PM <br>
+                        Saturday: 10:00 AM - 5:00 PM <br>
+                        Sunday: Closed <br>
+                        
+                        Our knowledgeable team is here throughout the week to help with everything from test drives to service appointments. Feel free to stop by or schedule an appointment at your convenience!</p>
+                    <button>Learn More</button>
+                
+        </div>
+        <div class="reviewWrapper">
+            <h2>What our Customers Say</h2>
+            <div id="parent"></div>
+        </div>
+    </main>
+</div><!-- end main wrapper -->
+
+
+   <div id="footerWrapper">
+      <footer>
+          <p>&copy; <span id="year">x</span> &bull; Eilish Matteson</p>
+      </footer>
+   </div>
+   <script src="js/scripts.js" type="module"></script>
+   <script src="data/reviews.js" type="module"></script>
+</body>
+</html>
