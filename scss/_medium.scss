@@ -34,3 +34,8 @@ header {
       font-size: 2rem;}
   
   }
+
+  div.cards {
+    grid-template-columns: repeat(2, 1fr); /* Two cards per row */
+    gap: 24px; /* Adjust gap as needed */
+}

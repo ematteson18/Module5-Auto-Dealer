@@ -598,6 +598,10 @@ footer p {
   #headerWrapper span {
     font-size: 2rem;
   }
+  div.cards {
+    grid-template-columns: repeat(2, 1fr); /* Two cards per row */
+    gap: 24px; /* Adjust gap as needed */
+  }
 }
 @media only screen and (min-width: 60rem) and (min-width: 1200px) {
   header, nav, main, footer {
