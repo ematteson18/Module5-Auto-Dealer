@@ -246,3 +246,11 @@ footer {
     text-align: center;
   }
 }
+
+
+.icon {
+  max-width: 150px;  /* Change this value to your desired max width */
+  max-height: 150px; /* Change this value to your desired max height */
+  width: auto;      /* Maintain aspect ratio */
+  height: auto;     /* Maintain aspect ratio */
+}

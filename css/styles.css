@@ -566,6 +566,13 @@ footer p {
   text-align: center;
 }
 
+.icon {
+  max-width: 150px; /* Change this value to your desired max width */
+  max-height: 150px; /* Change this value to your desired max height */
+  width: auto; /* Maintain aspect ratio */
+  height: auto; /* Maintain aspect ratio */
+}
+
 @media only screen and (min-width: 35rem) and (min-width: 768px) {
   /* Medium screen styles */
   #theButton {
